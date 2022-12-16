@@ -1,5 +1,4 @@
-//DISCLAIMER: taken and edited for personal use out of: https://github.com/shirnschall/Bruteforce
-
+*/DISCLAIMER: taken and edited for personal use out of: https://github.com/shirnschall/Bruteforce/*
 
 #ifndef BRUTEFORCE_H
 #define BRUTEFORCE_H
