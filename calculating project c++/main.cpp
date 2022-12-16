@@ -1,3 +1,4 @@
+
 Vector<float> numbers;
 Vector<char> plusIndex;
 Vector<char> multIndex;
