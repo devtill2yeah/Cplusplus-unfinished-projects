@@ -1,3 +1,5 @@
+
+
 */DISCLAIMER: taken and edited for personal use out of: https://github.com/shirnschall/Bruteforce/*
 
 #ifndef BRUTEFORCE_H
@@ -62,4 +64,6 @@ void getGuess()
         ++guessc[0]; // increment guessc at index 0 for the next run
     }
 }
+
+
 
