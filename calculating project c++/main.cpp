@@ -833,11 +833,11 @@ float solve(const char *eq, char start, char end, const float *vars)
         }
     }
 
-    //we can now add the remaining numbers and return the result
-    //Take a look at: a+b*c+d
+    //add the remaining numbers and return the result
+    //example: a+b*c+d
     //based on the previous step we know that the result of b*c will be stored in b
-    //we have to ignore c. this can be done using the value stored in the next plusIndex.
-    //we sum the first number and all numbers that are to the right of a + symbol.
+    //need to ignore c. this can be done using the value stored in the next plusIndex.
+    //sum the first number and all numbers that are to the right of a + symbol.
     //these numbers have an index of *plusIndex.at()-1
 
     float result = *numbers.at(0);
